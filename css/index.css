@@ -1,0 +1,108 @@
+header {
+    padding: 0.5em 0 0.5em 0;
+    background-color: rgb(0, 136, 151);
+}
+
+#back-button img {
+    width: 0.6em;
+}
+
+#tec-logo-div #tec-logo-img {
+    width: 7em;
+    margin-right: 1em;
+}
+
+#tec-logo-div #down-img {
+    width: 0.8em;
+}
+
+#profile-pic-img {
+    width: 2em;
+    border-radius: 50%;
+}
+
+#main {
+    margin-top: 1.25em;
+    border: 0px solid red;
+}
+
+#main #title-div {
+    margin: 0 0.35em 0 0.35em;
+}
+
+#main #title-div h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#main #title-div p {
+    margin-top: 2em;
+    font-size: 1.25em;
+    line-height: 120%;
+}
+
+#main #qr-div {
+    margin-top: 1.25em;
+}
+
+#main #text-div {
+    margin: 0.9em 0 0.7em 0;
+}
+
+#main #text-div p {
+    font-size: 1.5em;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+#main #verde {
+    color: #067d07;
+}
+
+#main #cuidas {
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+footer .container {
+    position: static;
+    bottom: 3.5em;
+}
+
+footer .row {
+    border-top: 1px solid lightgray;
+    padding: 0.25em 0.25em 0.25em 0;
+}
+
+footer #download-button {
+    width: 3em;
+    height: 3em;
+}
+
+footer #download-button img {
+    width: 1.25em;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ * No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
