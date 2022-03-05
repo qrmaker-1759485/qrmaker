@@ -26,7 +26,8 @@ header {
     border: 0px solid red;
 }
 
-#main #title-div {
+#main #title-div,
+#main #bottom-p {
     margin: 0 0.35em 0 0.35em;
 }
 
@@ -37,6 +38,14 @@ header {
 
 #main #title-div p {
     margin-top: 2em;
+}
+
+#main #bottom-p {
+    margin-bottom: 1.5em;
+}
+
+#main #title-div p,
+#main #bottom-p {
     font-size: 1.25em;
     line-height: 120%;
 }
