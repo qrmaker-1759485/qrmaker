@@ -17,13 +17,25 @@
         <header>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-2">
+                    <!-- Back arrow -->
+                    <div class="col-1">
                         <button id="back-button" type="button" class="btn btn-link"><img src="img/back.png"></button>
                     </div>
-                    <div id="tec-logo-div" class="col-8">
+                    <!-- Tec logo -->
+                    <div id="tec-logo-div" class="col-4">
                         <img id="tec-logo-img" src="img/tec logo.png">
-                        <img id="down-img" src="img/down.png">
                     </div>
+                    <!-- Dropdown menu-->
+                    <div class="dropdown col-4">
+                        <button class="btn dropdown-toggl" type="button" id="dropdownMenuItem" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img id="down-img" src="img/down.png">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuItem">
+                            <a class="dropdown-item" href="index.html">Diario</a>
+                            <a class="dropdown-item" href="mensual.html">Mensual</a>
+                        </div>
+                    </div>
+                    <!-- Student picture -->
                     <div id="profile-pic-div" class="col-2">
                         <img id="profile-pic-img" src="img/profile-picture.jpg">
                     </div>

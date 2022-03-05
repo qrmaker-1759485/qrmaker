@@ -9,10 +9,11 @@ header {
 
 #tec-logo-div #tec-logo-img {
     width: 7em;
+    margin-left: 1em;
     margin-right: 1em;
 }
 
-#tec-logo-div #down-img {
+#down-img {
     width: 0.8em;
 }
 
